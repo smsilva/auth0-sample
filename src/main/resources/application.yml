@@ -1,0 +1,7 @@
+okta:
+  oauth2:
+    issuer: ${OKTA_OAUTH2_ISSUER:https://YOUR_AUTH0_ORG_URI/}
+    audience: ${OKTA_OAUTH2_SYSTEM_API:https://YOUR_AUTH0_ORG_URI/api/v2/}
+    client-id: ${OKTA_OAUTH2_CLIENT_ID}
+    client-secret: ${OKTA_OAUTH2_CLIENT_SECRET}
+    scopes: ${OKTA_OAUTH2_SCOPES:openid,profile,email}
